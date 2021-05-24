@@ -1,0 +1,231 @@
+{
+  "@context": [
+    "http://digirati.com/canvaspanel/vocab.json",
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://digirati.com/balenciaga1.json",
+  "type": "Manifest",
+  "label": { "en": ["Balenciaga: Master Craftsman"] },
+  "metadata": [
+    {
+      "label": { "en": ["Comment"] },
+      "value": {
+        "@none": [
+          "Simplest version: no ranges, just labels and description/summary on canvases, with a viewing hint for layout (left, right, overlay)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Known as 'The Master' of haute couture, Cristóbal Balenciaga revolutionised the female silhouette"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "#TODO",
+      "type": "Image",
+      "width": 200,
+      "height": 300,
+      "service": [
+        {
+          "id": "#TODO",
+          "type": "ImageService2",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "posterCanvas": {
+    "id": "https://digirati.com/balenciaga/poster",
+    "requiredStatement": {
+      "label": { "en": [""] },
+      "value": {
+        "en": [
+          "<a href=\"#\" title=\"Evening outfit\">Evening outfit</a> (1967)<br/><a href=\"#\">by Cristóbal Balenciaga</a><br/>The Victoria and Albert Museum"
+        ]
+      }
+    },
+    "width": 4472,
+    "height": 6742,
+    "label": { "en": ["Balenciaga: Master Craftsman"] },
+    "summary": {
+      "en": [
+        "Known as 'The Master' of haute couture, Cristóbal Balenciaga revolutionised the female silhouette"
+      ]
+    },
+    "items": [
+      {
+        "id": "https://digirati.com/balenciaga/poster/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://digirati.com/balenciaga/poster/page/imageanno1",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id":
+                "https://dlc.services/iiif-img/5/3/0144b453-e7c8-4dc7-ad3d-2da1dddffaea/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 4472,
+              "height": 6742,
+              "service": [
+                {
+                  "id":
+                    "https://dlc.services/iiif-img/5/3/0144b453-e7c8-4dc7-ad3d-2da1dddffaea",
+                  "type": "ImageService2",
+                  "profile": "level1"
+                }
+              ]
+            },
+            "target": "https://digirati.com/balenciaga/poster"
+          }
+        ]
+      }
+    ]
+  },
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "homepage": {
+    "id": "#TODO - this can link to the page on V&A for the narrative viewer",
+    "type": "Text",
+    "label": { "en": ["Home page Balenciaga"] },
+    "format": "text/html"
+  },
+  "items": [
+    {
+      "id": "https://digirati.com/balenciaga/c1",
+      "type": "Canvas",
+      "behavior": ["info-position-left", "layout-split"],
+      "label": { "en": ["拾芥抄"] },
+      "summary": {
+        "en": [
+          "（重要文化財）南北朝時代・14世紀<p>拾芥抄は洞院公賢が著したとされる百科全書的な書物。これは「八省指図」の部分で、平安宮研究の基本史料です。史料本は諸本のうちで書写された時期が最も古いもの。</p>"
+        ]
+      },
+      "width": 4472,
+      "height": 6742,
+      "requiredStatement": {
+        "label": { "en": [""] },
+        "value": {
+          "en": [
+            "<a href=\"#\">東京大学史料編纂所</a>"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://digirati.com/balenciaga/c1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digirati.com/balenciaga/c1/page/imageanno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id":
+                  "https://www.hi.u-tokyo.ac.jp/news/news-2007/100ex/syuugaisyo.JPG",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 917,
+                "height": 583
+              },
+              "target": "https://digirati.com/balenciaga/c1"
+            }
+          ]
+        }
+      ]
+    },
+
+    
+
+    {
+      "id": "https://digirati.com/balenciaga/c3",
+      "type": "Canvas",
+      "behavior": ["info-position-right", "layout-split"],
+      "label": { "en": ["三条西実隆肖像紙形"] },
+      "summary": {
+        "en": [
+          "室町時代・1501年<br/><br/>紙形（画稿）の左隅に「辛酉　十　四」とあり、これが「辛酉」にあたる文亀元（1501）年10月4日の記事とピタリと符合します。<br/>この日、当代一の絵師土佐光信（「土左刑部少輔」）が訪れ、北野天神縁起絵の制作について相談がありました。<br/>実隆は光信に肖像を描かせますが、気に入らず、別の書物にはさみこんでしまいました。<br/>そして、「十分に似ず、比興也」（十分に似ておらず、興ざめである）と感想を日記に記していたのです。<br/>この二つが再び出会うことになりました。"
+        ]
+      },
+      "width": 4559,
+      "height": 2565,
+      "requiredStatement": {
+        "label": { "en": [""] },
+        "value": {
+          "en": [
+            "<a href=\"#\">東京大学史料編纂所</a>"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://digirati.com/balenciaga/c3/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digirati.com/balenciaga/c3/page/imageanno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id":
+                  "https://www.hi.u-tokyo.ac.jp/news/news-2007/100ex/sanetaka%20design.JPG",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 4559,
+                "height": 2565
+              },
+              "target": "https://digirati.com/balenciaga/c3"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "https://digirati.com/balenciaga/c4",
+      "type": "Canvas",
+      "behavior": ["info-position-right", "layout-split"],
+      "label": { "en": ["実隆公記"] },
+      "summary": {
+        "en": [
+          "（重要文化財）<br/>文亀元（1501）年10月4日条<br/><br/>紙形（画稿）の左隅に「辛酉　十　四」とあり、これが「辛酉」にあたる文亀元（1501）年10月4日の記事とピタリと符合します。<br/>この日、当代一の絵師土佐光信（「土左刑部少輔」）が訪れ、北野天神縁起絵の制作について相談がありました。<br/>実隆は光信に肖像を描かせますが、気に入らず、別の書物にはさみこんでしまいました。<br/>そして、「十分に似ず、比興也」（十分に似ておらず、興ざめである）と感想を日記に記していたのです。<br/>この二つが再び出会うことになりました。"
+        ]
+      },
+      "width": 4559,
+      "height": 2565,
+      "requiredStatement": {
+        "label": { "en": [""] },
+        "value": {
+          "en": [
+            "<a href=\"#\">東京大学史料編纂所</a>"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://digirati.com/balenciaga/c4/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digirati.com/balenciaga/c4/page/imageanno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id":
+                  "https://www.hi.u-tokyo.ac.jp/news/news-2007/100ex/sanetaka%20diary.JPG",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 4559,
+                "height": 2565
+              },
+              "target": "https://digirati.com/balenciaga/c4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
