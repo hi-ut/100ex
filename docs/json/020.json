@@ -1,0 +1,187 @@
+{
+  "@context": [
+    "http://digirati.com/canvaspanel/vocab.json",
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://digirati.com/balenciaga1.json",
+  "type": "Manifest",
+  "label": { "en": ["Balenciaga: Master Craftsman"] },
+  "metadata": [
+    {
+      "label": { "en": ["Comment"] },
+      "value": {
+        "@none": [
+          "Simplest version: no ranges, just labels and description/summary on canvases, with a viewing hint for layout (left, right, overlay)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Known as 'The Master' of haute couture, Cristóbal Balenciaga revolutionised the female silhouette"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "#TODO",
+      "type": "Image",
+      "width": 200,
+      "height": 300,
+      "service": [
+        {
+          "id": "#TODO",
+          "type": "ImageService2",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "posterCanvas": {
+    "id": "https://digirati.com/balenciaga/poster",
+    "requiredStatement": {
+      "label": { "en": [""] },
+      "value": {
+        "en": [
+          "<a href=\"#\" title=\"Evening outfit\">Evening outfit</a> (1967)<br/><a href=\"#\">by Cristóbal Balenciaga</a><br/>The Victoria and Albert Museum"
+        ]
+      }
+    },
+    "width": 4472,
+    "height": 6742,
+    "label": { "en": ["Balenciaga: Master Craftsman"] },
+    "summary": {
+      "en": [
+        "Known as 'The Master' of haute couture, Cristóbal Balenciaga revolutionised the female silhouette"
+      ]
+    },
+    "items": [
+      {
+        "id": "https://digirati.com/balenciaga/poster/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://digirati.com/balenciaga/poster/page/imageanno1",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id":
+                "https://dlc.services/iiif-img/5/3/0144b453-e7c8-4dc7-ad3d-2da1dddffaea/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 4472,
+              "height": 6742,
+              "service": [
+                {
+                  "id":
+                    "https://dlc.services/iiif-img/5/3/0144b453-e7c8-4dc7-ad3d-2da1dddffaea",
+                  "type": "ImageService2",
+                  "profile": "level1"
+                }
+              ]
+            },
+            "target": "https://digirati.com/balenciaga/poster"
+          }
+        ]
+      }
+    ]
+  },
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "homepage": {
+    "id": "#TODO - this can link to the page on V&A for the narrative viewer",
+    "type": "Text",
+    "label": { "en": ["Home page Balenciaga"] },
+    "format": "text/html"
+  },
+  "items": [
+    {
+      "id": "https://digirati.com/balenciaga/c1",
+      "type": "Canvas",
+      "behavior": ["info-position-left", "layout-split"],
+      "label": { "en": ["明治天皇御沙汰書"] },
+      "summary": {
+        "en": [
+          "1８６９（明治２）年<p>明治天皇が輔相三条実美に修史を命じた自筆沙汰書です。<br/>これが史料編纂所の出発点となりました。</p>"
+        ]
+      },
+      "width": 4472,
+      "height": 6742,
+      "requiredStatement": {
+        "label": { "en": [""] },
+        "value": {
+          "en": [
+            "<a href=\"#\">東京大学史料編纂所</a>"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://digirati.com/balenciaga/c1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digirati.com/balenciaga/c1/page/imageanno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id":
+                  "https://www.hi.u-tokyo.ac.jp/news/news-2007/100ex/meiji%20emperor.JPG",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 917,
+                "height": 583
+              },
+              "target": "https://digirati.com/balenciaga/c1"
+            }
+          ]
+        }
+      ]
+    },
+
+    
+
+    {
+      "id": "https://digirati.com/balenciaga/c3",
+      "type": "Canvas",
+      "behavior": ["info-position-right", "layout-split"],
+      "label": { "en": ["『大日本史料』活字組版"] },
+      "summary": {
+        "en": [
+          "修史事業は帝国大学へ移管され、正史編纂ではなく、歴史史料の収集と研究、編纂事業がはじまりました。<br/>１９０１年から『大日本史料』や『大日本古文書』の出版がはじまり、今年で１００周年となりました。"
+        ]
+      },
+      "width": 4559,
+      "height": 2565,
+      "requiredStatement": {
+        "label": { "en": [""] },
+        "value": {
+          "en": [
+            "<a href=\"#\">東京大学史料編纂所</a>"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://digirati.com/balenciaga/c3/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digirati.com/balenciaga/c3/page/imageanno1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id":
+                  "https://www.hi.u-tokyo.ac.jp/news/news-2007/100ex/kumihan.JPG",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 4559,
+                "height": 2565
+              },
+              "target": "https://digirati.com/balenciaga/c3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
