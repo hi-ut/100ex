@@ -113,8 +113,8 @@
           "沖縄本島の図。王城は首里です。<br/>これは元禄の国絵図作成にあたり、５０年前の正保図を写したもの。<br/>島から島への航路もきちんとつながります。"
         ]
       },
-      "width": 42000,
-      "height": 3000,
+      "width": 24899,
+      "height": 14218,
       "requiredStatement": {
         "label": { "en": [""] },
         "value": {
@@ -137,8 +137,8 @@
                   "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/tmp/hi/3.tif/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 42000,
-                "height": 3000,
+                "width": 1556,
+                "height": 888,
                 "service": [
                   {
                     "id":
@@ -180,8 +180,8 @@
           "これは西表島。島の周りにサンゴ礁が描かれているのがわかりますか？"
         ]
       },
-      "width": 42000,
-      "height": 3000,
+      "width": 24994,
+      "height": 13611,
       "requiredStatement": {
         "label": { "en": [""] },
         "value": {
@@ -204,8 +204,8 @@
                   "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/tmp/hi/2.tif/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 42000,
-                "height": 3000,
+                "width": 1562,
+                "height": 850,
                 "service": [
                   {
                     "id":
