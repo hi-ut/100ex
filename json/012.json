@@ -181,8 +181,8 @@
                     "https://nakamura196.github.io/iiif0/files/tile/wakan/full/full/0/default.jpg",
                   "type": "Image",
                   "format": "image/jpeg",
-                  "width": 42000,
-                  "height": 3000,
+                  "width": 164,
+                  "height": 12,
                   "service": [
                     {
                       "id":
