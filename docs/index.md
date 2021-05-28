@@ -17,11 +17,11 @@
 * 観覧料／一般　1000円、高校・大学生　600円、小・中学生　300円(２０名以上は団体料金あり)
 * <b>12月11日～１月１４日小中高生無料</b>
 
-## 開催要項
+## 展示の概要
 
 <div style="text-align:center">
 <figure>
-<img src="../img/ochiai.jpeg"></img>
+<img src="./img/ochiai.jpeg"></img>
 <figcaption>落合左平次背旗（鳥居強右衛門逆磔図）</figcaption>
 </figure>
 </div>
